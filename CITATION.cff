@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: >-
+  Please cite this software using these metadata.
+type: software
+title: "Silver-rate lower bound for gradient descent, strongly convex case: Lean formalization"
+version: 1.0.0
+repository-code: https://github.com/Jeong2357/silver-rate-strongly-convex-lean
+license: GPL-3.0-only
+authors:
+  - family-names: Jeong
+    given-names: Yechan
+    affiliation: Department of Mathematical Sciences, Seoul National University
+    email: yechan@snu.ac.kr
+    orcid: https://orcid.org/0009-0000-1476-0666
+  - family-names: Hong
+    given-names: Youngjoon
+    affiliation: Department of Mathematical Sciences, Seoul National University
+    email: hongyj@snu.ac.kr
+    orcid: https://orcid.org/0000-0003-4956-8660
+abstract: >-
+  A Lean formalization of the sharp silver-rate lower bound for gradient
+  descent on smooth strongly convex functions with arbitrary predetermined
+  real stepsizes. The theorem gives a uniform exp(-C n kappa^(-nu)) lower
+  bound for both worst-case relative squared-distance and function-value
+  errors, where nu = 1/log_2(1 + sqrt(2)), for all sufficiently large
+  condition numbers and all horizons in positive finite Euclidean dimensions.
+keywords:
+  - Lean
+  - formal verification
+  - gradient descent
+  - strongly convex optimization
+  - stepsize schedules
+  - lower bounds
